@@ -73,12 +73,15 @@ HAM10000_segmentations_lesion_tschandl/
 *.zip
 
 # CSV data files (except requirements)
-data/
-processed/
+/data/
+/processed/
 HAM10000_metadata
 *.csv
 # But keep sample/example CSVs if any
 !example_*.csv
+
+# Allow src/data/ directory (source code)
+!/src/data/
 
 # Temporary files
 *.tmp
