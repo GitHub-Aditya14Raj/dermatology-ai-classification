@@ -1,0 +1,168 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Training outputs
+outputs/
+logs/
+runs/
+wandb/
+*.log
+
+# Model checkpoints (optional - comment out if you want to track them)
+checkpoints/*.pth
+checkpoints/*.pt
+checkpoints/*.ckpt
+# Keep the checkpoints directory structure
+!checkpoints/.gitkeep
+
+# Documentation (internal docs, not for GitHub)
+docs/
+CLEANUP_SUMMARY.md
+QUICKSTART.md
+PROJECT_ANALYSIS.md
+SETUP_GUIDE.md
+SPEED_OPTIMIZATION.md
+START_HERE.md
+START_TRAINING.md
+TRAINING_CONFIGS.md
+RTX3060_TRAINING_GUIDE.md
+Team29_CSET402_M1.pdf
+
+# Utility/diagnostic scripts (not needed in repo)
+scripts/
+check_model.py
+check_both_models.py
+check_setup.py
+diagnose_speed.py
+profile_training.py
+
+# Dataset files (too large for GitHub)
+# Raw images
+HAM10000_images_part_1/
+HAM10000_images_part_2/
+ISIC2018_Task3_Test_Images/
+HAM10000_segmentations_lesion_tschandl/
+
+# ZIP archives
+*.zip
+
+# CSV data files (except requirements)
+data/
+processed/
+HAM10000_metadata
+*.csv
+# But keep sample/example CSVs if any
+!example_*.csv
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# PyTorch specific
+*.pth.tar
+*.pkl
+*.pickle
+
+# Weights & Biases
+wandb/
+
+# MLflow
+mlruns/
+
+# TensorBoard
+events.out.tfevents.*
+
+# Large model files
+*.h5
+*.hdf5
+*.safetensors
+
+# Cached data
+.cache/
+*.npy
+*.npz
+
+# Test outputs
+test_outputs/
+predictions/
+visualizations/
+
+# Environment variables
+.env
+.env.local
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Distribution / packaging
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.manifest
+*.spec
+
+# PyInstaller
+*.spec
+
+# Unit test / coverage
+.pytest_cache/
+.tox/
+.nox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
